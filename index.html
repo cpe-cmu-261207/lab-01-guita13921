@@ -1,21 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Athiti&family=Mitr:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Mitr", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Menu-->
+    <div
+      class="d-flex flex-row-reverse font-family: 'Bellota', cursive;"
+      style="background-color: rgb(56, 162, 204)"
+    >
+      <div class="hstack gap-3">
+        <h1>
+          <button type="button" class="btn btn-light">
+            <a href="index.html" target="_self">Home</a>
+          </button>
+        </h1>
+        <h1>
+            <button type="button" class="btn btn-light">
+              <a href="Experience.html" target="_self">Experience</a>
+            </button>
+          </a>
+        </h1>
+        <h1>
+          <button type="button" class="btn btn-light">
+            <a href="Contact.html" target="_self">Contact</a>
+            </button>
+          </a>
+        </h1>
+      </div>
+    </div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</head>
+    <!-- Card profile-->
+    <div class="card mt-5 m-auto hstack" style="width: 50rem">
+      <img
+        src="images\guitar.png"
+        class="card-img-top rounded-circle"
+        alt="Card image cap"
+        height="300"
+        width="300"
+      />
+      <div class="card-body">
+        <h3 class="card-title">Channarong Duansgupa</h3>
+        <p class="card-text">
+          สวัสดีครับ ผมชื่อ ชาญณรงค์ ดวงสุภา ศึกษาอยู่ที่มห่วิทยาลัยเชียงใหม่
+          คณะวิศวะกรรมศาสตร์ สาขาตอมพิเตอร์ ผมชอบคอมพิวเตอร์มากไม่ว่าจะเป็น
+          การเล่นเกม การเขียนโปรแกรม หรือกการออกแบบ และตอนนี้ผมไฟแรงมากๆ
+          พร้อมจะเป็นดาวรุ่งแล้วครับ
+        </p>
+      </div>
+    </div>
+    <br />
 
-<body>
+    <!-- Skill -->
 
-
-</body>
-
+    <h1 class="d-flex justify-content-center">My Skill</h1>
+    <div class="hstack ms-5 me-5 gap-5 d-flex justify-content-around">
+      <div class="card mt-5 m-auto vstack" style="width: 18rem">
+        <img
+          src="images\Program.jpg"
+          class="card-img-top rounded-3"
+          alt="Card image cap"
+          height="300"
+          width="300"
+        />
+        <div class="card-body">
+          <h3 class="card-title">programming</h3>
+          <p class="card-text">
+            ผมมีความสามารถเกี่ยวกับการ เขียนโปรแกรมบนคอมพิวเตอร์
+            ผมสามารถเขียนโปรแกรมที่ทำงานโดยใช้ C C+ java JavaScript
+          </p>
+        </div>
+      </div>
+      <!-- 2-->
+      <div class="card mt-5 m-auto vstack" style="width: 18rem">
+        <img
+          src="images\Game.webp"
+          class="card-img-top rounded-3"
+          alt="Card image cap"
+          height="300"
+          width="300"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Game tester</h3>
+          <p class="card-text">
+            เนื่องจากผมมีตวามชอบในการเล่นเกมอยู่แล้ว
+            ผมจึงมีประสบการณ์การเล่นเกมที่มากพอที่จะทดสอบเกมว่ามีคุณภาพ
+            ให้ความสนุกแก่ผู้ที่เล่นเกมได้จริงหรือไม่
+          </p>
+        </div>
+      </div>
+      <!--3-->
+      <div class="card mt-5 m-auto vstack" style="width: 18rem">
+        <img
+          src="images\Art.webp"
+          class="card-img-top rounded-3"
+          alt="Card image cap"
+          height="300"
+          width="300"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Digital art</h3>
+          <p class="card-text">
+            ผมคิดจิตนาการเป็นสิ่งสำคัญ วิธีที่จะปลดหล่อบจิตนการของผมคือการวาดรูป
+            ซึ่งผมถนัดในการวาดบนคอมพิวเจอร์ Digital art
+            จึงเป็นหนึ่งในความสามรถของผม
+          </p>
+        </div>
+      </div>
+      <!--4-->
+      <div class="card mt-5 m-auto vstack" style="width: 18rem">
+        <img
+          src="images\Fhorn.jpg"
+          class="card-img-top rounded-3"
+          alt="Card image cap"
+          height="300"
+          width="300"
+        />
+        <div class="card-body">
+          <h3 class="card-title">French horn</h3>
+          <p class="card-text">ผมเคยเล่นเครื่องด้วยตรีนี้ในสมัยเรียนมัธยม</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
